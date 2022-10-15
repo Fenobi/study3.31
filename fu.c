@@ -1,11 +1,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-int main()
-{
-	int a = 0;
-	scanf("%d", a);
-	return 0;
-}
+
+//int main()
+//{
+//	int a = 0;
+//	scanf("%d", a);
+//	return 0;
+//}
 
 //int main()
 //{
@@ -55,3 +56,17 @@ int main()
 //	return 0;
 //}
 
+
+
+int main()
+{
+	int arr[] = { 1,2,3,4,5,6,7,8,9 };
+	int n = sizeof(arr) / sizeof(arr[0]);
+	JO_paixv(arr, n);
+	int i = 0;
+	for (i = 0; i < n; i++)
+	{
+		printf("%d ", arr[i]);
+	}
+	return 0;
+}
